@@ -1,7 +1,7 @@
 # Calulator-Python
 Basic,Here I share a simple calculator in python language 
 
-# Bahasa Indonesia
+### Bahasa Indonesia
   
  ```py
  print("Calulator Python".center(30,"="))
