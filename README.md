@@ -1,13 +1,32 @@
 # Calulator-Python
 Basic,Here I share a simple calculator in python language 
 
-#### Contoh 
+# Bahasa Indonesia
   
- ``` 
- user@host:~$ git clone https://github.com/datascienceid/instagram.git instagram 
- Cloning into 'instagram'... 
- remote: Counting objects: 4, done. 
- remote: Compressing objects: 100% (4/4), done. 
- remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0 
- Unpacking objects: 100% (4/4), done. 
+ ```py
+ print("Calulator Python".center(30,"="))
+print("""Metode:
+[+] Tambah
+[-] Kurang
+[*] Kali
+[/] Bagi
+""")
+while True:
+    num = int(input("\nMasukan angka: "))
+    mtd = input("Metode: ")
+    num1 = int(input("masukan angka kedua: "))
+    if mtd == '+':
+        hasil = num + num1
+        print(num ,"+", num1 ,"=",hasil)
+    elif mtd == '-':
+        hasil = num - num1
+        print(num ,"-", num1 ,"=",hasil)
+    elif mtd == '/':
+        hasil = num / num1
+        print(num ,"/", num1 ,"=",hasil)
+    elif mtd == '*':
+        hasil = num * num1
+        print(num ,"*", num1 ,"=",hasil)
+    else:
+        print("Masukan metode yang valid!!") 
  ```
