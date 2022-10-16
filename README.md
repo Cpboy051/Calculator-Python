@@ -22,7 +22,7 @@ while True:
         hasil = num - num1
         print(num ,"-", num1 ,"=",hasil)
     elif mtd == '/':
-        hasil = num / num1
+        hasil = num // num1
         print(num ,"/", num1 ,"=",hasil)
     elif mtd == '*':
         hasil = num * num1
